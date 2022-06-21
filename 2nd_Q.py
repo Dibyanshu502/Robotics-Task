@@ -41,10 +41,6 @@ def popular(num):
     return popular_course
 
 
-# n = int(input("Enter the no. of elements"))
-# Students = list(map(list, input("Enter the list ").strip()))[:n]
-# print("User List: ", Students)
-
 Students = [['math', 'phy', 'chem', 'cs'], ['math', 'phy'], ['math', 'chem'], ['history', 'eco']]
 x = numbers(Students)
 print(x)
@@ -54,8 +50,3 @@ print("The most popular course is: ",y)
         
         
 
-
-# for i in range (n):
-#     Students = list(input("Enter courses for each student as list :"))
-
-# print(Students)
